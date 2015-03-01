@@ -210,6 +210,10 @@ static void SetSys (const char* Sys)
             DefineNumericMacro ("__BBC__", 1);
             break;
 
+        case TGT_BURI:
+            DefineNumericMacro ("__BURI__", 1);
+            break;
+
         case TGT_APPLE2:
             DefineNumericMacro ("__APPLE2__", 1);
             break;
